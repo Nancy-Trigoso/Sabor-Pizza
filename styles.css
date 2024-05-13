@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+  }
+  
+  header {
+    border: solid;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  a[href^="tel:"] {
+    font-size: 24px;
+    display: inline-block;
+    margin: 20px 30px;
+  }
+  a.btn-third {
+    color: #fff;
+    background-color: #FF5722;
+    padding: 5px 20px;
+    text-decoration: none;
+  }
+  /* Añadiendo icono como pseudoelemento CSS */
+  a.btn-third:before {
+  content: "\260e";
+  margin-right: 0.5em;
+}
+/*Whatsapp*/
+.btn-whatsapp { 
+  display: table;
+  font-family:sans-serif;
+  text-decoration: none;
+  margin: 1em auto;  
+  color: #fff;
+  font-size: 0.9em;
+  padding: 1em 2em 1em 3.5em;
+  border-radius: 2em;
+  font-weight: bold;
+  background: #25d366 url('https://tochat.be/click-to-chat-directory/css/Whatsapp.svg')
+  no-repeat 1.5em center;
+  background-size: 1.6em;
+}
+.header-title{
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  
+}
+  .btn-sign-in {
+    text-decoration: none;
+    background-color: #2b3a67;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 6px;
+  }
+  .header-list> li > a:hover{
+    text-decoration:none;
+    color:red;
+    font-weight: bold;
+  }
+  .titulo{
+    text-align: center;
+    color:darkslategrey;
+    font-weight: Times ;
+
+  }
+  .parrafo{
+    text-align: center;
+    color:cadetblue;
+  }
+  .redes{
+    text-align: center;
+  }
+  .h2{
+
+  }
+ 
