@@ -74,9 +74,9 @@
     color:cadetblue;
   }
   .redes{
+    display: flex;
+    justify-content: space-between;
     text-align: center;
   }
-  .h2{
 
-  }
  
