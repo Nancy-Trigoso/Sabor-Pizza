@@ -6,14 +6,14 @@
     <title>¡Bienvenido a Sabor Pizza!</title>
     <link rel="stylesheet" href="./styles.css"/>
 </head>
-<script>
-     console.log("Hola mundo");
-    console.log("Imprime informacion en la consola del navegador");
+<!-- <script>
+   //  console.log("Hola mundo");
+   // console.log("Imprime informacion en la consola del navegador");
     
-    console.error("Esto es para mostrar algun error");
+    //console.error("Esto es para mostrar algun error");
     
-    console.warn("Esto es para mostrar alguna advertencia");
-</script>
+    //console.warn("Esto es para mostrar alguna advertencia");
+</script> -->
 
 <body>
      <header>
@@ -24,47 +24,68 @@
             <p>SABOR PIZZA</p> 
             <p>Con pizza la vida es mejor</p>
         </div>
-
+        
         <a href="https://wa.me/51949446986" class="btn-whatsapp">Has tu pedido por whatsApp </a>
         <a class="btn-third" href="tel:015403249">Llamanos 015403249</a>
        
+        
         <ul class="header-list">
         <li>
-        <a href=""class="btn-sign-in">Ingresar</a>
+        <a href=""class="btn-sign-in">Carta</a>
         </li>
         </ul>
+        
         </nav>
      </header>
      <main>
         <script>
-            const nombre = prompt("Cual es tu nombre?");
-            //document.write("Mi nombre es: " + nombre);
+            nombre = prompt("Cual es tu nombre?");
+            document.write("Mi nombre es: " + nombre);
             //se pone el mas para confernar el string + la variable
             //condicionales 
-            const apellido = prompt("Cual es tu apellido?");
-            const correo = prompt("Cual es tu correo?");
+           const apellido = prompt("Cual es tu apellido?");
+           const correo = prompt("Cual es tu correo?");
             
             if (nombre, apellido, correo !== null) {
-                document.write("Hola me llamo " + nombre + " " + apellido +  " y mi correo electronico es: " + correo);
-            } else {
+            document.write("Hola me llamo " + nombre + " " + apellido +  " y mi correo electronico es: " + correo);
+           } else {
                 document.write("El usuario no escribio sus datos");
-            }
+           }
+        
             
             
-            
-        </script>
-        <img src="fondo.png" alt="" width="1500px" height="600">
+       </script> 
+        <img src="fondo.png" alt="" width="1500px" height="550">
         <!--que debajo de la foto aparezca mi nombre, pero que el navegador me pregunte cual es-->
         
         <h1 class="titulo">Las mejores pizzas están en Sabor Pizza</h1>
         <div>
         <p class="parrafo">Disfruta de los sabores únicos de nuestras pizzas hechas con los mejores ingredientes.</p>
         </div>
+        <h2 class="sub-titulo">Promociones</h2>
+        <p class="parrafo-dos">
+            Una promoción se disfruta mejor en familia y amigos.
+        </p>
+        <section>
+            <ul>
+                <il>
+                    
+                    <img src="promo0.1.jpg" alt="" width="332px" height="232"> 
+                    
+                    <img src="promo1.jpg" alt="" width="332px" height="232">
+                    
+                    <img src="Read05.jpg" alt="" width="332px" height="232">
+                    <img src="promo3.jpg" alt="" width="332px" height="232">
+
+                    
+                </il>
+            </ul>
+        </section>
      </main>
      <footer>
         <section>
             
-            <ul class="redes">
+            <ul>
                 <il>
                     <img src="face.png" alt="" width="30px" >
                     facebook.com/@SaborPizza
@@ -80,8 +101,9 @@
             </ul>
         </section>
      </footer>
+     <script src ="./app.js"></script>
 </body>
-<script>
+<!-- <script>
     //console.log("Hola mundo");
     //console.log("Imprime informacion en la consola del navegador");
     
@@ -99,5 +121,5 @@
     //);
     //console.log(nombre);
 
-</script>
+</script> -->
 </html>

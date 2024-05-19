@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Helvetica;
+    font-family: Italica;
   }
   
   header {
@@ -48,9 +48,10 @@
   text-align: center;
   font-size: 22px;
   font-weight: bold;
-  color: black;
+  color: blue;
   
 }
+
   .btn-sign-in {
     text-decoration: none;
     background-color: #2b3a67;
@@ -67,16 +68,55 @@
     text-align: center;
     color:darkslategrey;
     font-weight: Times ;
+    letter-spacing:  0px;
+    line-height: 2;
 
+  }
+  .sub-titulo{
+    text-align: left;
+    color:darkslategrey;
+    font-weight: Times ;
+    letter-spacing:  0px;
+    line-height: 1;
   }
   .parrafo{
     text-align: center;
     color:cadetblue;
   }
-  .redes{
+  .parrafo-dos{
+    text-align: left;
+    color:cadetblue;
+    line-height: 3;
+  }
+  .promos{
+    text-align: left;
+    color:cadetblue;
+    line-height: 3;
+  }
+  main ol{
+    margin-left: 200px;
+  }
+  footer:hover{
+    background-color: orangered;
+    }
+  footer{
+    color:lightgrey;
+    width: 800px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 3;
+  }
+  footer ul{
+    text-align: center;
+  }
+  footer ul li {
     display: flex;
     justify-content: space-between;
     text-align: center;
   }
 
+  footer ul li a{
+  color: black;
+  text-decoration: none;
+  }
  
