@@ -4,20 +4,36 @@ El nombre de la fucion siempre de acabar en un verbo infinitivo(Puede acabar en:
 *Las funciones son acciones
 *Puede conter n lineas(lo maximo que puede tener una funcion son 50 lineas)
 */
-function nombredelafuncion(){
+//function nombredelafuncion(){
 //Dentro de la funcion pueden creae variables, usar condicionales
-//prompt("Ingresa tunombre");
+//prompt("Ingresa tu nombre");
 //las funciones puede retornar algo o retornar nada
-return "hola";
+//return "hola";
 
-}
+//}
 
 //para poder ejecutar el codigo de la funcion
-const mensaje = nombredelafuncion();
-console.log(mensaje);
+//const mensaje = nombredelafuncion();
+//console.log(mensaje);
 
 //se pone el mas para confernar el string + la variable
 //condicionales 
+const nombre = prompt("Cual es tu nombre?");
+const apellido = prompt("Cual es tu apellido?");
+const correo = prompt("Cual es tu correo?");
+
+function ingresadatos(){
+if (nombre !==null && nombre !== "", apellido !==null && apellido !== "", correo !==null && correo !== "" ){
+const HelloElement = document.getElementById("Hello");
+HelloElement.innerHTML = "<forte>Hola me llamo: " + nombre  +  " " + apellido +  " y mi correo electronico es:<forte>"  + correo;
+} else {
+    HelloElement.innerHTML = "<string>El usuario no registro sus datos<string>";
+}
+
+}
+
+ingresadatos()
+
 
 function solicitarnumero(){
 const numero = prompt("Ingrese un numero");
