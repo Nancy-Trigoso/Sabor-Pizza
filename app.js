@@ -18,21 +18,69 @@ El nombre de la fucion siempre de acabar en un verbo infinitivo(Puede acabar en:
 
 //se pone el mas para confernar el string + la variable
 //condicionales 
-const nombre = prompt("Cual es tu nombre?");
-const apellido = prompt("Cual es tu apellido?");
-const correo = prompt("Cual es tu correo?");
 
-function ingresadatos(){
-if (nombre !==null && nombre !== "", apellido !==null && apellido !== "", correo !==null && correo !== "" ){
-const HelloElement = document.getElementById("Hello");
-HelloElement.innerHTML = "<forte>Hola me llamo: " + nombre  +  " " + apellido +  " y mi correo electronico es:<forte>"  + correo;
-} else {
-    HelloElement.innerHTML = "<string>El usuario no registro sus datos<string>";
-}
 
-}
+//Primer ejemplo de llamar un nombre 1---------->
 
-ingresadatos()
+
+//const nombre = prompt("Cual es tu nombre?");
+//const apellido = prompt("Cual es tu apellido?");
+//const correo = prompt("Cual es tu correo?");
+
+//function ingresadatos(){
+//if (nombre !==null && nombre !== "", apellido !==null && apellido !== "", correo !==null && correo !== "" ){
+//const HelloElement = document.getElementById("Hello");
+//HelloElement.innerHTML = "<forte>Hola me llamo: " + nombre  +  " " + apellido +  " y mi correo electronico es:<forte>"  + correo;
+//} else {
+   // HelloElement.innerHTML = "<string>El usuario no registro sus datos<string>";
+//}
+
+//}
+
+//ingresadatos()
+
+//Primer ejemplo de llamar un nombre 2---------->
+
+//const nombre = prompt("Cual es mi nombre");
+            // Condicionales
+            //if (nombre !== null) {
+            //document.write(nombre);
+            //} else {
+              //document.write("El usuario no escribio su nombre");
+            //}
+
+            //const apellido = prompt("Cual es mi apellido");
+            // Condicionales
+            //if (apellido !== null) {
+              //document.write(apellido);
+            //} else {
+              //document.write(" - ");
+            //}
+
+//Primer ejemplo de llamar un nombre 3---------->
+
+            //function vernombre(){
+                //const nombre = prompt("Cual es tu nombre")
+                 //if(nombre!==null){
+                        //document.write(nombre);
+                    //}else{
+                        //document.write("Para continuar ingrese su nombre")
+                    //}
+              //}
+              
+                
+                //function registrarUsuario(){
+                  //const nombre = prompt ("Cual es tu nombre");
+                  //const apellido = prompt("Cual es su apellido");
+                  //const correo = prompt("Cual es su correo");
+                  //alert("Hola me llamo "  + nombre + " " + apellido);
+                  //alert("Mi correo es " + correo);
+                  //console.log(nombre);
+                //}
+
+
+                
+
 
 
 function solicitarnumero(){

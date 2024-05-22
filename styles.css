@@ -15,20 +15,21 @@
     
   }
   a[href^="tel:"] {
-    font-size: 24px;
+    font-size: 20px;
     display: inline-block;
-    margin: 20px 30px;
+    margin: 10px 10px;
   }
   a.btn-third {
     color: #fff;
     background-color: #FF5722;
-    padding: 5px 20px;
+    padding: 3px 10px;
     text-decoration: none;
+    text-align: center;
   }
   /* Añadiendo icono como pseudoelemento CSS */
   a.btn-third:before {
   content: "\260e";
-  margin-right: 0.5em;
+  margin-right: 0.3em;
 }
 /*Whatsapp*/
 .btn-whatsapp { 
@@ -38,19 +39,34 @@
   margin: 1em auto;  
   color: #fff;
   font-size: 0.9em;
-  padding: 1em 2em 1em 3.5em;
-  border-radius: 2em;
+  padding: 1em 1em 1em 3.5em;
+  border-radius: 1em;
   font-weight: bold;
   background: #25d366 url('https://tochat.be/click-to-chat-directory/css/Whatsapp.svg')
   no-repeat 1.5em center;
   background-size: 1.6em;
+  text-align: left;
 }
 .header-title{
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
   color: blue;
   
+}
+.btn-ubicacion {
+  text-decoration: none;
+  background-color: #c9ccd3;
+  padding: 8px;
+  color:green;
+  border-radius: 6px;
+  display: flex;
+  text-align: center;
+}
+.btn-ubicacion:hover{
+  text-decoration:none;
+  color:red;
+  font-weight: bold;
 }
 
   .btn-sign-in {
@@ -60,7 +76,7 @@
     color: #ffffff;
     border-radius: 8px;
   }
-  .header-list> li > a:hover{
+  .btn-sign-in:hover{
     text-decoration:none;
     color:red;
     font-weight: bold;
