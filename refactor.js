@@ -8,3 +8,16 @@ function mostrarnombre(){
         document.write("El usuario no escribio sus datos");
     }
 }
+
+function numerodeingreso(){
+    let numerocorrecto = 20;
+    let respuestadelusuario = null;
+    let contadordeintentos = 0;
+
+    while (respuestadelusuario !== numerocorrecto){
+        respuestadelusuario = Number(prompt("Ingresa la clave para poder ingresar a la página"));
+        
+        contadordeintentos +=1;
+    }
+
+}
