@@ -83,13 +83,13 @@ El nombre de la fucion siempre de acabar en un verbo infinitivo(Puede acabar en:
 
 
 
-//function solicitarnumero(){
-//const numero = prompt("Ingrese un numero");
-//return Number(numero);
-//}
-//function sumar2(){
-    //const numero1 = solicitarnumero();
-    //const numero2 = solicitarnumero();
+function solicitarnumero(){
+const numero = prompt("Ingrese un numero");
+return Number(numero);
+}
+function sumar2(){
+    const numero1 = solicitarnumero();
+    const numero2 = solicitarnumero();
 
     /**
      * Cuando intentamos convertir un texto a un number
@@ -102,12 +102,12 @@ El nombre de la fucion siempre de acabar en un verbo infinitivo(Puede acabar en:
 
     //if (isNaN(numero1)) esto es igual a if (isNaN(numero1)) ===true)
     //if (!isNaN(numero1)) esto es igual a if (isNaN(numero1)) ===false)
-    //if (!isNaN(numero1) && !isNaN(numero2)){
-        //return numero1 + numero2;
-    //} else {
-       // return"La suma no se pudo hacer.";
-  //  }
-//}
+    if (!isNaN(numero1) && !isNaN(numero2)){
+        return numero1 + numero2;
+    } else {
+        return"La suma no se pudo hacer.";
+    }
+}
     //console.log("NUMBER1", isNaN(numero1));
     //console.log("NUMBER1", isNaN(numero1));
     //return numero1 + numero2;
@@ -117,8 +117,8 @@ El nombre de la fucion siempre de acabar en un verbo infinitivo(Puede acabar en:
 //console.log("Numbre1", numero1);
 //console.log("Numbre2", numero2);
 
-//const resultado2 = sumar2();
-//console.log("Resultado2", resultado2);
+const resultado2 = sumar2();
+console.log("Resultado2", resultado2);
 
 //function saludar(nombre){
     //console.log("Hola me llamo " + nombre);
